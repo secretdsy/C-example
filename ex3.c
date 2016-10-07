@@ -11,7 +11,6 @@ int main() {
 }
 
 int gcd(int a, int b) {
-    int max = 0;
     int i = 0;
     int result = 0;
 
