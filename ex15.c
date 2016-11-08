@@ -18,7 +18,7 @@ int main() {
             k++;
         }
     }
-    for(count = 0; count < (N / 2) + 1; count++) {
+    for(count = 0; count < (N / 2); count++) {
         for(j = 0 + count; j < N - 1 - count; j++) {
             i = count;
             arr[i][j] = m;
@@ -39,6 +39,9 @@ int main() {
             arr[i][j] = m;
             m++;
         }
+    }
+    if(N % 2 == 1) {
+        arr[N / 2][N / 2] = N * N;
     }
 
     for(i = 0; i < N; i++) {
