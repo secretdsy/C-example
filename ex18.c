@@ -36,14 +36,14 @@ int main() {
             w++;
         }
         else if(N == c) {
-            printf("You choose %s, Computer choose %s, You drow! \n", user,
+            printf("You choose %s, Computer choose %s, You draw! \n", user,
                     com);
             d++;
         }
         else {
             printf("You choose %s, Computer choose %s, You lose! \n", user,
                     com);
-            printf("Result of the game : %d win, %d drow \n", w, d);
+            printf("Result of the game : %d win, %d draw \n", w, d);
             break;
         }
     }
