@@ -17,6 +17,11 @@ int main() {
         printf("Rock : 1 Scissor : 2 Paper : 3 , Input number : ");
         scanf("%d", &N);
 
+        if(N > 3) {
+            printf("Wrong Number, Try again \n");
+            continue;
+        }
+
         if(N == 1)
             user = "Rock";
         else if(N == 2)
